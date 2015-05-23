@@ -8,4 +8,6 @@ vi  /etc/rsyslog.conf </br>
 保存退出</br>
 重启rsyslog服务</br>
 同样也可以接收nginx的syslog模块打过来的日志</br>
+mysql启动日志</br>
+/usr/bin/mysqld_safe --datadir=/var/lib/mysql --socket=/var/lib/mysql/mysql.sock --pid-file=/var/run/mysqld/mysqld.pid --basedir=/usr --user=mysql --syslog --syslog-tag=标签名字
 
