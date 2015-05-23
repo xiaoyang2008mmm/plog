@@ -1,9 +1,11 @@
 # plog
-Python写的rsyslog日志服务器服务端
+<h1>Python写的rsyslog日志服务器服务端</h1>
 
 使用：
 配置</br>
+udp @    tcp@@</br>
 vi  /etc/rsyslog.conf </br>
+
 \*\.\* @192.168.1.105:5514</br>
 保存退出</br>
 重启rsyslog服务</br>
